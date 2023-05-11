@@ -1,6 +1,7 @@
 ﻿body {
     padding: 0;
     margin: 0;
+    background-color: ghostwhite
 }
 
 ul {
@@ -155,7 +156,6 @@ section .bx img {
 .menu {
     width: 25px;
     cursor: pointer;
-    display: none
 }
 
 #links div a {
@@ -207,4 +207,29 @@ footer div {
 
 h2,h3,p,#links {
     font-family: Calibri
+}
+
+
+@media only screen and (max-width:425px) {
+    section {
+        flex-direction: column;
+        align-items: center
+    }
+
+    section .bx {
+        width: 500px;
+        height: 600px;
+        margin-top: 20px
+    }
+
+    #banner div {
+        width: 50%;
+        height: 300px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .menu {
+        display: none
+    }
 }
