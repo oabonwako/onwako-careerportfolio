@@ -29,7 +29,7 @@ li {
 }
 
 #banner {
-    background-image: url(../images/unsplash.jpg);
+    background-image: url(../images/project.jpg);
     background-size: cover;
     width: 100%;
     display: flex;
