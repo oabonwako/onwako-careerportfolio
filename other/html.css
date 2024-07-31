@@ -313,7 +313,12 @@ h2,h3,p,#links {
 @media only screen and (max-width:1000px) {
 
     #logo {
-        font-size: 10px;
+        font-size: 8px;
+        font-family: 'Segoe Script'
+    }
+
+    #links {
+        font-size: 8px;
         font-family: 'Segoe Script'
     }
     
@@ -340,13 +345,13 @@ h2,h3,p,#links {
 
 
     #bkcolor #cert {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         margin-top: 130px
     }
 
     #bkcolor .bx {
-        width: 200px;
+        width: 150px;
         margin-top: 110px
     }
 
@@ -361,9 +366,15 @@ h2,h3,p,#links {
     }
 
     section .bx {
-        width: 700px;
-        height: 800px;
-        margin-top: 20px
+        width: 250px;
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    .skill .bx {
+        width: 250px;
+        height: 250px;
+        margin-top: 20px;
     }
 
     #banner div {
