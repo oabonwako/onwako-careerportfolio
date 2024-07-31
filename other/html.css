@@ -1,0 +1,385 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+li {
+    margin-left: 60px;
+}
+
+#nav div {
+    color: white;
+    margin: 10px
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black
+}
+
+#banner {
+    background-image: url(../images/laptop.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 611px;
+}
+
+ #banner div {
+     color: white;
+     margin: 10px;
+     width: 28%;
+     height: 300px
+ }
+
+#links {
+    display: flex;
+    justify-content: space-between
+}
+
+#cnt_pic {
+    display: flex;
+    justify-content: center;
+    padding: 50px
+}
+
+#oabo {
+    background-image: linear-gradient(30deg, pink,deeppink, rebeccapurple, aqua);
+    margin-right: 40px;
+    width: 25%;
+    height: 340px;
+    padding: 25px;
+    border-radius: 50%;
+    transition-duration: 2.0s;
+    transition-property: all;
+    transition-timing-function: linear
+}
+
+#imgo {
+    background-image: url(../images/ob.jpg);
+    background-size: cover;
+    margin-right: 40px;
+    width: 100%;
+    height: 340px;
+    border-radius: 50%;
+}
+
+/*#oabo:hover {
+    width: 33%;
+    height: 500px
+}*/
+
+#cnt_pic .box {
+    width: 20%;
+}
+
+
+.box p {
+    border-bottom: 5px solid purple
+}
+
+
+#logo {
+    font-family: 'Segoe Script'
+}
+
+
+.char {
+    font-size: 40px;
+    color: lightgrey;
+    display:inline-block;
+    transition: all 250ms ease-in-out
+}
+
+.char.active {
+    transform: scale(1.5) rotate(20deg);
+    font-size: 50px;
+    color: rebeccapurple
+}
+
+#modal_box {
+    padding: 7px;
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 300px;
+    height: 200px
+}
+
+#modal_box.modal_active {
+    opacity: 0;
+    z-index: -10
+}
+
+button {
+    padding: 4px;
+    background-color: rebeccapurple;
+    margin-left: 110px;
+    font-family: Calibri;
+    width: 60px;
+    border: 1px solid rebeccapurple;
+    border-radius: 10px;
+    transition: all 80ms ease-in-out
+}
+
+
+button:hover {
+    background-color: mediumpurple;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 110px
+}
+
+#btn {
+    padding: 4px;
+    background-color: rebeccapurple;
+    width: 80px;
+    color: white;
+    font-family: Calibri;
+    margin: 0;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 80ms ease-in-out
+}
+
+
+#btn:hover {
+    background-color: mediumpurple;
+    width: 110px
+}
+
+#heart {
+    color: deeppink;
+    font-size: 20px;
+    display: inline-block;
+    transition: all 0.5s ease-in-out
+}
+
+#heart:hover {
+    font-size: 30px;
+    transform: rotate(20deg)
+}
+
+
+header {
+    padding: 10px;
+    margin: 20px;
+    height: 60px;
+    text-align: center
+}
+
+.letter {
+    color: dimgrey;
+    font-size: 40px;
+    font-family: 'Segoe Script';
+    display: inline-block;
+    transition: all 250ms ease-in-out
+}
+
+.letter.active1 {
+    color: rebeccapurple;
+    transform: scale(1.5) rotate(20deg);
+    font-size: 50px
+}
+
+section {
+    display: flex;
+    justify-content:space-between
+}
+
+.skill .bx {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    border-radius: 15px;
+    background: linear-gradient(30deg, pink,deeppink, rebeccapurple, aqua);
+}
+
+section .bx {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+section .bx img {
+    width: 100%
+}
+
+#bkcolor {
+    padding: 10px;
+    height: 400px;
+    width: 98%;
+    background: linear-gradient(30deg, pink,deeppink, rebeccapurple, aqua);
+    display: flex;
+    justify-content: center
+}
+
+#bkcolor .bx {
+    width: 400px;
+    margin-top: 110px
+}
+
+#bkcolor #cert {
+    width: 350px;
+    height: 350px
+}
+
+#cert {
+    background-image: url(../images/gda_cert.png);
+    background-size: cover
+}
+
+
+.menu {
+    width: 25px;
+    cursor: pointer;
+    display: none
+}
+
+#links div a {
+    text-decoration: none;
+    color: white
+}
+
+
+#links div a:hover {
+    border-bottom: 2px solid deeppink
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 55px;
+    background-color: lightgray;
+    height: 100px;
+
+}
+
+footer div {
+    margin-top: 25px
+}
+
+#slinks {
+    display: flex
+}
+
+#slinks img{
+    width: 25px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out
+}
+
+#slinks img:hover {
+    background-color: white;
+    padding: 8px
+}
+
+#btn a {
+    text-decoration: none;
+    color: white
+}
+
+h2,h3,p,#links {
+    font-family: Calibri;
+    color:white;
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    #logo {
+        font-size: 10px;
+        font-family: 'Segoe Script'
+    }
+    
+
+    #cnt_pic {
+        flex-direction: column
+    }
+
+    #imgo {
+        width: 100%;
+        height: 300px
+    }
+
+    #oabo {
+        width: 70%;
+        height: 300px;
+        padding: 15px
+    }
+
+
+    #cnt_pic .box {
+        width: 100%;
+    }
+
+
+    #bkcolor #cert {
+        width: 150px;
+        height: 150px;
+        margin-top: 130px
+    }
+
+    #bkcolor .bx {
+        width: 200px;
+        margin-top: 110px
+    }
+
+
+    .menu {
+        display: block
+    }
+
+    section {
+        flex-direction: column;
+        align-items: center
+    }
+
+    section .bx {
+        width: 700px;
+        height: 800px;
+        margin-top: 20px
+    }
+
+    #banner div {
+        width: 50%;
+        height: 300px
+    }
+
+    .menu {
+        display: none
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,236 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    background-color: ghostwhite
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+
+li {
+    margin-left: 60px;
+}
+
+#nav div {
+    color: white;
+    margin: 10px
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black
+}
+
+#banner {
+    background-image: url(../images/project.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 611px;
+}
+
+ #banner div {
+     color: white;
+     margin: 10px;
+     width: 33%;
+     height: 300px
+ }
+
+#links {
+    display: flex;
+    justify-content: space-between
+}
+
+#cnt_pic {
+    display: flex;
+    justify-content: center;
+    padding: 50px
+}
+
+
+
+
+.box p {
+    border-bottom: 5px solid purple
+}
+
+
+#logo {
+    font-family: 'Segoe Script'
+}
+
+
+.char {
+    font-size: 40px;
+    color: lightgrey;
+    display:inline-block;
+    transition: all 250ms ease-in-out
+}
+
+.char.active {
+    transform: scale(1.5) rotate(20deg);
+    font-size: 50px;
+    color: rebeccapurple
+}
+
+
+#btn {
+    padding: 4px;
+    background-color: rebeccapurple;
+    width: 80px;
+    color: white;
+    font-family: Calibri;
+    margin: 0;
+    border: 1px solid rebeccapurple;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 80ms ease-in-out
+}
+
+
+#btn:hover {
+    background-color: mediumpurple;
+    width: 110px
+}
+
+#heart {
+    color: deeppink;
+    font-size: 20px;
+    display: inline-block;
+    transition: all 0.5s ease-in-out
+}
+
+#heart:hover {
+    font-size: 30px;
+    transform: rotate(20deg)
+}
+
+
+header {
+    padding: 10px;
+    margin: 20px;
+    height: 60px;
+    text-align: center
+}
+
+.letter {
+    color: dimgrey;
+    font-size: 40px;
+    font-family: 'Segoe Script';
+    display: inline-block;
+    transition: all 250ms ease-in-out
+}
+
+.letter.active1 {
+    color: rebeccapurple;
+    transform: scale(1.5) rotate(20deg);
+    font-size: 50px
+}
+
+section {
+    display: flex;
+    justify-content:space-between
+}
+
+section .bx {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: white
+}
+
+section .bx img {
+    width: 100%
+}
+
+
+.menu {
+    width: 25px;
+    cursor: pointer;
+}
+
+#links div a {
+    text-decoration: none;
+    color: white
+}
+
+
+#links div a:hover {
+    border-bottom: 2px solid deeppink
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 55px;
+    background-color: lightgray;
+    height: 100px;
+
+}
+
+footer div {
+    margin-top: 25px
+}
+
+#slinks {
+    display: flex
+}
+
+#slinks img{
+    width: 25px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 10px;
+    transition: all 250ms ease-in-out
+}
+
+#slinks img:hover {
+    background-color: white;
+    padding: 8px
+}
+
+#btn a {
+    text-decoration: none;
+    color: white
+}
+
+h2,h3,p,#links {
+    font-family: Calibri
+}
+
+
+
+@media only screen and (max-width:1000px) {
+
+    section {
+        flex-direction: column;
+        align-items: center
+    }
+
+    section .bx {
+        width: 700px;
+        height: 800px;
+        margin-top: 20px
+    }
+
+    #banner div {
+        width: 50%;
+        height: 300px
+    }
+
+    .menu {
+        display: none
+    }
+}
+
